@@ -1,0 +1,79 @@
+> Seed: 66666
+> device: cuda:1
+> Loading model_save/20220403_17_58_14.pth
+> Model Structure:
+Gallat(
+  (spatAttLayer): SpatAttLayer(
+    (dimSpatAttLayers): ModuleList(
+      (0): MultiHeadPwGaANLayer(
+        (pwGaAN): PwGaANLayer(
+          (Wa): Linear(in_features=43, out_features=16, bias=False)
+          (att_out_fc_l): Linear(in_features=16, out_features=1, bias=False)
+          (att_out_fc_r): Linear(in_features=16, out_features=1, bias=False)
+        )
+      )
+      (1): MultiHeadPwGaANLayer(
+        (pwGaAN): PwGaANLayer(
+          (Wa): Linear(in_features=43, out_features=16, bias=False)
+          (att_out_fc_l): Linear(in_features=16, out_features=1, bias=False)
+          (att_out_fc_r): Linear(in_features=16, out_features=1, bias=False)
+        )
+      )
+      (2): MultiHeadPwGaANLayer(
+        (pwGaAN): PwGaANLayer(
+          (Wa): Linear(in_features=43, out_features=16, bias=False)
+          (att_out_fc_l): Linear(in_features=16, out_features=1, bias=False)
+          (att_out_fc_r): Linear(in_features=16, out_features=1, bias=False)
+        )
+      )
+    )
+    (proj_fc): Linear(in_features=43, out_features=16, bias=False)
+    (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (tempAttLayer): TempAttLayer(
+    (recScaledDotProductAttention): ScaledDotProductAttention(
+      (Wq): Linear(in_features=41, out_features=64, bias=False)
+      (Wk): Linear(in_features=64, out_features=64, bias=False)
+      (Wv): Linear(in_features=64, out_features=64, bias=False)
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (combScaledDotProductAttention): ScaledDotProductAttention(
+      (Wq): Linear(in_features=41, out_features=64, bias=False)
+      (Wk): Linear(in_features=64, out_features=64, bias=False)
+      (Wv): Linear(in_features=64, out_features=64, bias=False)
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (tranAttLayer): TranAttLayer(
+    (demand_fc): Linear(in_features=64, out_features=1, bias=True)
+    (activate_function): Sigmoid()
+    (Wa): Linear(in_features=64, out_features=64, bias=False)
+    (att_out_fc_l): Linear(in_features=64, out_features=1, bias=False)
+    (att_out_fc_r): Linear(in_features=64, out_features=1, bias=False)
+  )
+)
+> Model sent to cuda:1
+> Loading DataSet from data/ny2016_0101to0331/
+> Total Hours: 2184, starting from 1
+> Unify FB Graphs: False, Mix FB Graphs: False
+> Validation batches: 6, Test batches: 11
+tune = True, ref_extent = -1.00
+> Metrics Evaluations for Validation Set:
+Demand:
+RMSE-0 = 919.8734, RMSE-3 = 1221.9021, RMSE-5 = 1306.1707
+MAPE-0 = 0.6345, MAPE-3 = 0.8935, MAPE-5 = 0.9293
+MAE-0 = 268.3138, MAE-3 = 472.7856, MAE-5 = 539.7495
+OD:
+RMSE-0 = 109.8101, RMSE-3 = 188.1918, RMSE-5 = 216.0608
+MAPE-0 = 0.6800, MAPE-3 = 0.9073, MAPE-5 = 0.9372
+MAE-0 = 21.0859, MAE-3 = 59.1557, MAE-5 = 76.5797
+> Metrics Evaluations for Test Set:
+Demand:
+RMSE-0 = 897.7490, RMSE-3 = 1189.3735, RMSE-5 = 1272.0073
+MAPE-0 = 0.6344, MAPE-3 = 0.8944, MAPE-5 = 0.9305
+MAE-0 = 263.2721, MAE-3 = 461.4646, MAE-5 = 527.3090
+OD:
+RMSE-0 = 105.9155, RMSE-3 = 181.7907, RMSE-5 = 208.2473
+MAPE-0 = 0.6799, MAPE-3 = 0.9079, MAPE-5 = 0.9375
+MAE-0 = 20.5283, MAE-3 = 57.6879, MAE-5 = 74.3333
+> Evaluation finished.

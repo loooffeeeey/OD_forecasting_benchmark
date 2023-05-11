@@ -12,7 +12,7 @@
 | model | RMSE | NRMSE | MAE | MAPE | sMAPE |
 | ----- | ----- | ----- | ----- | ----- | ----- | 
 | GEML  |      |       |     |      |       |
-| MPGCN |      |       |     |      |       |
+| MPGCN | 1.1421 |       |     |      |       |
 | Gallet|      |       |     |      |       |
 
 

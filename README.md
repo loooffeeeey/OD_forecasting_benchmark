@@ -37,22 +37,22 @@
 
 | model | Spatial Topology Construction | Spatial Feature Modeling | Temporal Modeling | External Features |
 | ----- | -----                         | -----                    | -----             | -----             |
-| LSTNet  |     |       |     |    |       |
-| GCRN  |      |       |    |     |       |
-| GEML  | grids as nodes <br> geo-adjacency graph <br> POI-similarity graph | GCN                         |  LSTM             | none              |
-| MPGCN |       |       |     |      |       |
-| PGCN |      |       |     |      |       |
-| ST-GDL |      |       |     |      |       |
-| Gallet |    |       |     |       |       |
-| Hex D-GCN |      |       |     |      |       |
-| BGARN |       |       |        |       |       |
-| CMOD |      |       |     |      |       |
-| AEST |      |       |     |      |       |
-| HMOD |      |       |     |      |       |
-| MVPF |      |       |     |      |       |
-| DDW |      |       |     |      |       |
-| ST-VGCN |      |       |     |      |       |
-| C-AHGCSP |      |       |     |      |       |
-| ODformer |      |       |     |      |       |
-| HIAM |      |       |     |      |       |
-| STHAN |      |       |     |      |       |
+| [LSTNet](./models/LSTNet/) |      |       |     |      |       |
+| [GCRN](./models/GCRN/) |      |       |     |      |       |
+| [GEML](./models/GEML/) | grids as nodes <br> geo-adjacency graph <br> POI-similarity graph | GCN                         |  LSTM             | none              |
+| [MPGCN](./models/MPGCN/) |      |       |     |      |       |
+| [PGCN](./models/PGCN/) |      |       |     |      |       |
+| [ST-GDL](./models/ST-GDL/) |      |       |     |      |       |
+| [Gallet](./models/Gallet/) |      |       |     |      |       |
+| [Hex D-GCN](./models/Hex_DGCN/) |      |       |     |      |       |
+| [BGARN](./models/BGARN/) |      |       |     |      |       |
+| [CMOD](./models/CMOD/) |      |       |     |      |       |
+| [AEST](./models/AEST/) |      |       |     |      |       |
+| [HMOD](./models/HMOD/) |      |       |     |      |       |
+| [MVPF](./models/MVPF/) |      |       |     |      |       |
+| [DDW](./models/DDW/) |      |       |     |      |       |
+| [ST-VGCN](./models/STVGCN/) |      |       |     |      |       |
+| [C-AHGCSP](./models/CAHGCSP/) |      |       |     |      |       |
+| [ODformer](./models/ODformer/) |      |       |     |      |       |
+| [HIAM](./models/HIAM/)|      |       |     |      |       |
+| [STHAN](./models/STHAN/) |      |       |     |      |       |

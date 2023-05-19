@@ -37,5 +37,23 @@
 
 | model | Spatial Topology Construction | Spatial Feature Modeling | Temporal Modeling | External Features |
 | ----- | -----                         | -----                    | -----             | -----             |
+| LSTNet  |     |       |     |    |       |
+| GCRN  |      |       |    |     |       |
 | GEML  | grids as nodes <br> geo-adjacency graph <br> POI-similarity graph | GCN                         |  LSTM             | none              |
-| Gallet |
+
+| MPGCN |       |       |     |      |       |
+| PGCN |      |       |     |      |       |
+| ST-GDL |      |       |     |      |       |
+| Gallet |    |       |     |       |       |
+| Hex D-GCN |      |       |     |      |       |
+| BGARN |       |       |        |       |       |
+| CMOD |      |       |     |      |       |
+| AEST |      |       |     |      |       |
+| HMOD |      |       |     |      |       |
+| MVPF |      |       |     |      |       |
+| DDW |      |       |     |      |       |
+| ST-VGCN |      |       |     |      |       |
+| C-AHGCSP |      |       |     |      |       |
+| ODformer |      |       |     |      |       |
+| HIAM |      |       |     |      |       |
+| STHAN |      |       |     |      |       |

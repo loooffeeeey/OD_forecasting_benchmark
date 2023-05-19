@@ -40,7 +40,6 @@
 | LSTNet  |     |       |     |    |       |
 | GCRN  |      |       |    |     |       |
 | GEML  | grids as nodes <br> geo-adjacency graph <br> POI-similarity graph | GCN                         |  LSTM             | none              |
-
 | MPGCN |       |       |     |      |       |
 | PGCN |      |       |     |      |       |
 | ST-GDL |      |       |     |      |       |

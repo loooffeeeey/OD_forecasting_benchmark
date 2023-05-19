@@ -1,10 +1,15 @@
 # HMOD
-Dynamic Graph Learning Based on Hierarchical Memory for Origin-Destination Demand Prediction[2022 arxiv]
 
-## 1. preprocess data
+## Title
 
-python  preprocess_data.py
+《Dynamic Graph Learning Based on Hierarchical Memory for Origin-Destination Demand Prediction》 
 
-### 2. train
+## Reference
+Zhang R, Han L, Liu B, et al. Dynamic Graph Learning Based on Hierarchical Memory for Origin-Destination Demand Prediction[J]. arXiv preprint arXiv:2205.14593, 2022.
 
-python train_processed_HTOD.py
+## Paper Link
+https://arxiv.org/abs/2205.14593
+
+## Overview
+
+![框图](./HMOD.png)

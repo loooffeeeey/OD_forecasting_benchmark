@@ -27,7 +27,7 @@
 | [MVPF](./models/MVPF/) |      |       |     |      |       |
 | [DDW](./models/DDW/) |      |       |     |      |       |
 | [ST-VGCN](./models/STVGCN/) |      |       |     |      |       |
-| [C-AHGCSP](./models/CAHGCSP/) |      |       |     |      |       |
+| [CA-SATCN](./models/CA-SATCN/) |      |       |     |      |       |
 | [ODformer](./models/ODformer/) |      |       |     |      |       |
 | [HIAM](./models/HIAM/)|      |       |     |      |       |
 | [STHAN](./models/STHAN/) |      |       |     |      |       |
@@ -52,7 +52,7 @@
 | [MVPF](./models/MVPF/) |      |       |     |      |       |
 | [DDW](./models/DDW/) |      |       |     |      |       |
 | [ST-VGCN](./models/STVGCN/) |      |       |     |      |       |
-| [C-AHGCSP](./models/CAHGCSP/) |      |       |     |      |       |
+| [CA-SATCN](./models/CA-SATCN/) |      |       |     |      |       |
 | [ODformer](./models/ODformer/) |      |       |     |      |       |
 | [HIAM](./models/HIAM/)|      |       |     |      |       |
 | [STHAN](./models/STHAN/) |      |       |     |      |       |

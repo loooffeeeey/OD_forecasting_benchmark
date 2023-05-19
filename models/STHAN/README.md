@@ -6,4 +6,4 @@ reference: Ling S, Yu Z, Cao S, et al. STHAN: Transportation demand forecasting 
 
 paper link: https://dl.acm.org/doi/10.1145/3565578
 
-graph: https://dl.acm.org/cms/asset/56dfe4b2-6164-48db-91ff-4adfdd69cd0b/tkdd-2022-04-0142-f03.jpg
+graph: ![框图](https://dl.acm.org/cms/asset/56dfe4b2-6164-48db-91ff-4adfdd69cd0b/tkdd-2022-04-0142-f03.jpg)

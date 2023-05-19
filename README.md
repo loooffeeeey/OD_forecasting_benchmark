@@ -13,24 +13,24 @@
 | model | RMSE | NRMSE | MAE | MAPE | sMAPE |
 | ----- | ----- | ----- | ----- | ----- | ----- | 
 | [LSTNet](./models/LSTNet/)  |  |       |24.5363|0.5161|       |
-| GCRN  | 120.2321 |       |24.5363|0.5161|       |
-| GEML  | 113.8526 |       |39.5888|3.1885|       |
-| MPGCN | 1.1421 |       |     |      |       |
-| PGCN |      |       |     |      |       |
-| ST-GDL |      |       |     |      |       |
-| Gallet | 1081.1332|       |355.7162|0.6623|       |
-| Hex D-GCN |      |       |     |      |       |
-| BGARN | 52.2182|       |10.3148|0.5017|       |
-| CMOD |      |       |     |      |       |
-| AEST |      |       |     |      |       |
-| HMOD |      |       |     |      |       |
-| MVPF |      |       |     |      |       |
-| DDW |      |       |     |      |       |
-| ST-VGCN |      |       |     |      |       |
-| C-AHGCSP |      |       |     |      |       |
-| ODformer |      |       |     |      |       |
-| HIAM |      |       |     |      |       |
-| STHAN |      |       |     |      |       |
+| [GCRN](./models/GCRN/)  | 120.2321 |       |24.5363|0.5161|       |
+| [GEML](./models/GEML/)  | 113.8526 |       |39.5888|3.1885|       |
+| [MPGCN](./models/MPGCN/) | 1.1421 |       |     |      |       |
+| [PGCN](./models/PGCN/) |      |       |     |      |       |
+| [ST-GDL](./models/ST-GDL/) |      |       |     |      |       |
+| [Gallet](./models/Gallet/) | 1081.1332|       |355.7162|0.6623|       |
+| [Hex D-GCN](./models/Hex_DGCN/) |      |       |     |      |       |
+| [BGARN](./models/BGARN/) | 52.2182|       |10.3148|0.5017|       |
+| [CMOD](./models/CMOD/) |      |       |     |      |       |
+| [AEST](./models/AEST/) |      |       |     |      |       |
+| [HMOD](./models/HMOD/) |      |       |     |      |       |
+| [MVPF](./models/MVPF/) |      |       |     |      |       |
+| [DDW](./models/DDW/) |      |       |     |      |       |
+| [ST-VGCN](./models/STVGCN/) |      |       |     |      |       |
+| [C-AHGCSP](./models/CAHGCSP/) |      |       |     |      |       |
+| [ODformer](./models/ODformer/) |      |       |     |      |       |
+| [HIAM](./models/HIAM/)|      |       |     |      |       |
+| [STHAN](./models/STHAN/) |      |       |     |      |       |
 
 
 

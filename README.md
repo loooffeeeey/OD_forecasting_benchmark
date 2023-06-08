@@ -1,6 +1,8 @@
 # OD forecasting benchmark
 
+![Illustration of OD construction](assets/problem_for.png)
 
+This is the OD (origin-destination) forecasting benchmark.
 
 
 

@@ -4,6 +4,7 @@
 
 This is the OD (origin-destination) forecasting benchmark.
 
+test
 '''
 dgl==1.1.0
 matplotlib==3.1.1

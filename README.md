@@ -2,8 +2,9 @@
 
 ![Illustration of OD construction](assets/problem_for.png)
 
-This is the OD (origin-destination) forecasting benchmark.
+**Problem Definition.** Given a historical dataset of OD flows $\lbrace f^t_{ij} | t= 1,2,...,k-1 \rbrace$ over a certain period of time, the objective is to forecast the OD flows for future time periods $\lbrace f^t_{ij} | t=k,k+1,... \rbrace$.
 
+## Requirements
 
 ```
 dgl==1.1.0

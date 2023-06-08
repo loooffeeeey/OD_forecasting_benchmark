@@ -1,14 +1,12 @@
-# Continuous-Time and Multi-Level Graph Representation Learning for Origin-Destination Demand Prediction
-This is an implementation of CMOD: [Continuous-Time and Multi-Level Graph Representation Learning for Origin-Destination Demand Prediction, KDD2022].
-## Environment
-- Python 3.6.12
-- PyTorch 1.6.0
-- NumPy 1.19.1
-- tqdm 4.51.0
-## Dataset
-Step 1： Download the processed dataset from [Baidu Yun](https://pan.baidu.com/s/1guYb1Mxtrweucsdd2ZucnQ) (Access Code:luck).
+# CMOD
+## Title
+《Continuous-Time and Multi-Level Graph Representation Learning for Origin-Destination Demand Prediction》
 
-Step 2: Put them into ./data directories.
-## Train command
-    # Train with NYTaxi
-    python train_OD.py --data=NYTaxi
+## Reference
+Han L, Ma X, Sun L, et al. Continuous-Time and Multi-Level Graph Representation Learning for Origin-Destination Demand Prediction[C]//Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2022: 516-524.
+
+## Paper Link
+https://doi.org/10.1145/3534678.3539273
+
+## Overview
+![框图](./cmod.png)

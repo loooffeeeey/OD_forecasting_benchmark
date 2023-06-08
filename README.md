@@ -30,7 +30,7 @@ Firstly, divide the area to be studied into several grids on the map.
 
 The first data description method is to divide time into discrete time intervals, count the OD flow at each time interval, and record it as an OD matrix. In every slot, $X \in R(N,N)$ ,  $N$ is the number of grids. $x_{ij}$ represents the volume of $i \rightarrow j$.
 
-<img decoding="OD Flow" src="OD_flow.png" width="65%">
+<img decoding="OD Flow" src="OD_flow.png" width="50%">
 
 The second data description method is to record the starting point, ending point, and departure time (arrival time) of each OD flow.
 

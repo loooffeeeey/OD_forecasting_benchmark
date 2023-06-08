@@ -1,0 +1,32 @@
+# PyCharm
+.idea/
+
+# Others
+desktop.ini
+
+# Log
+log/
+**/*.log
+
+# Model
+model_save/
+**/*.pth
+
+# Python
+**/__pycache__
+
+# Data
+data/
+**/*.csv
+**/grid_info.json
+**/req_info.json
+**/GeoGraph.dgl
+**/FBGraphs.dgl
+**/FBGraphMix.dgl
+**/GDVQ.npy
+
+# Include results/records
+!records/**/*.log
+
+# Bash
+Trainer.sh

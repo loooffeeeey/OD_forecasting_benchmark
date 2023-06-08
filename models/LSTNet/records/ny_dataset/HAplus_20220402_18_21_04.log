@@ -1,0 +1,22 @@
+> device: cuda:1
+> Using HA (Historical Average) [all] baseline model.
+> Loading DataSet from data/ny2016_0101to0331/
+> Validation batches: 6, Test batches: 11
+> Metrics Evaluations for Validation Set:
+Demand:
+RMSE-0 = 232.6142, RMSE-3 = 308.4480, RMSE-5 = 326.8430
+MAPE-0 = 0.7108, MAPE-3 = 0.6331, MAPE-5 = 0.5387
+MAE-0 = 65.1822, MAE-3 = 113.3492, MAE-5 = 128.4632
+OD:
+RMSE-0 = 29.5302, RMSE-3 = 50.3277, RMSE-5 = 57.6703
+MAPE-0 = 0.4321, MAPE-3 = 0.4171, MAPE-5 = 0.4038
+MAE-0 = 6.1855, MAE-3 = 16.0692, MAE-5 = 20.3923
+> Metrics Evaluations for Test Set:
+Demand:
+RMSE-0 = 218.7742, RMSE-3 = 289.7921, RMSE-5 = 309.9055
+MAPE-0 = 0.5244, MAPE-3 = 0.4837, MAPE-5 = 0.4601
+MAE-0 = 61.3402, MAE-3 = 106.5441, MAE-5 = 121.3612
+OD:
+RMSE-0 = 28.3008, RMSE-3 = 48.5195, RMSE-5 = 55.5404
+MAPE-0 = 0.4213, MAPE-3 = 0.4099, MAPE-5 = 0.3966
+MAE-0 = 5.8884, MAE-3 = 15.2942, MAE-5 = 19.3079

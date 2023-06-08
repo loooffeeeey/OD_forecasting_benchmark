@@ -29,28 +29,28 @@ tqdm==4.62.3
 | [MPGCN](./models/MPGCN/) | regions as nodes<br>distance-based graph<br>POI-similarity graph<br>OD flow-based graph | 2DGCN | LSTM | MSELoss |
 | [Gallet](./models/Gallet/) | regions as nodes<br>OD flow-based graph<br>distance-based graph | spatial attention | temporal attention | MSELoss |
 | [gMHC-STA](./models/gMHC-STA/) | region-pairs as nodes<br>fully-connected graph | GCN + spatial attention | self-attention | MSELoss |
-|ST-VGCN | region-pairs as nodes<br>OD flow-based graph | GCN + gated mechanism | GRU | MSELoss|
-| MVPF | stations as nodes<br>distance-based graph | GAT | GRU | MSELoss |
-| Hex D-GCN | hexagonal grids as nodes<br>taxi path-based dynamic graph | GCN | GRU | MSELoss |
-|CWGAN-GP | OD matrix as an image | CNN | CNN | GAN-based training |
-| SEHNN | stations as nodes<br>geo-adjacency graph| GCN | LSTM | VAE-based training |
-| HC-LSTM | grids as nodes<br>OD flow-based graph<br>in/out flow as an image<br>OD matrix as an image | CNN + GCN | LSTM | MSELoss |
-| ST-GDL | regions as nodes<br>distance-based graph |CNN + GCN | CNN | MSELoss |
-| PGCM | region pairs as nodes<br>OD flow-based graph | GCN + gated mechanism | none | probabilistic inference<br>with Monte Carlo |
-| MF-ResNet | OD matrix as an image | CNN | none | MSELoss |
-| TS-STN | stations as nodes<br>OD flow-based graph | temporally shifted<br>graph convolution | LSTM + attention | Partially MSELoss |
-| DMGC-GAN | regions as nodes<br>geo-adjacency graph<br>OD flow-based graph<br>in/out flow-based graph |GCN | GRU | GAN-based training |
-| DNEAT | regions as nodes<br>geo-adjacency graph<br>OD flow-based graph | attention | attention | MSELoss |
-| CAS-CNN | OD matrix as image | CNN | channel-wise attention | masked MSELoss |
-|ST-ED-RMGC | region pairs as nodes<br>fully-connected graph<br>geo-adjacency graph<br>POI-based graph<br>disntance-based graph<br>OD flow-based graph | GCN | LSTM | MSELoss |
-| HSTN | regions as nodes<br>geo-adjacency graph<br>in/out flow-based graph | GCN | GRU+Seq2Seq | MSELoss |
-| BGARN | grid clusters as nodes<br>distance-based graph<br>OD flow-based graph | GCN + attention | LSTM | MSELoss |
-| HMOD | regions as nodes<br>OD flow-based graph | random walk for embedding | GRU | MSELoss |
-| STHAN | regions as nodes<br>geo-adjacency graph<br>POI-based graph<br>OD flow-based graph | convolution by meta-paths + attention | GRU | MSELoss |
-| ODformer | regions as nodes | 2D-GCN within Transformer | none | MSELoss |
-| CMOD | stations as nodes<br>passengers as edges | multi-level information aggregation | multi-level information aggregation | continous time forecasting |
-| MIAM | stations as nodes<br>railway-based graph | GCGRU | Transformer | online forecasting |
-| DAGNN | regions as nodes<br>fully-connected graph | subgraph + GCN | TCN | MSELoss |
+| [ST-VGCN](./models/STVGCN/) | region-pairs as nodes<br>OD flow-based graph | GCN + gated mechanism | GRU | MSELoss|
+| [MVPF](./models/MVPF/) | stations as nodes<br>distance-based graph | GAT | GRU | MSELoss |
+| [Hex D-GCN](./models/Hex_DGCN/) | hexagonal grids as nodes<br>taxi path-based dynamic graph | GCN | GRU | MSELoss |
+|[CWGAN-GP](./models/) | OD matrix as an image | CNN | CNN | GAN-based training |
+| [SEHNN](./models/) | stations as nodes<br>geo-adjacency graph| GCN | LSTM | VAE-based training |
+| [HC-LSTM](./models/) | grids as nodes<br>OD flow-based graph<br>in/out flow as an image<br>OD matrix as an image | CNN + GCN | LSTM | MSELoss |
+| [ST-GDL](./models/ST-GDL/) | regions as nodes<br>distance-based graph |CNN + GCN | CNN | MSELoss |
+| [PGCN](./models/PGCN/) | region pairs as nodes<br>OD flow-based graph | GCN + gated mechanism | none | probabilistic inference<br>with Monte Carlo |
+| [MF-ResNet](./models/) | OD matrix as an image | CNN | none | MSELoss |
+| [TS-STN](./models/) | stations as nodes<br>OD flow-based graph | temporally shifted<br>graph convolution | LSTM + attention | Partially MSELoss |
+| [DMGC-GAN](./models/) | regions as nodes<br>geo-adjacency graph<br>OD flow-based graph<br>in/out flow-based graph |GCN | GRU | GAN-based training |
+| [DNEAT](./models/) | regions as nodes<br>geo-adjacency graph<br>OD flow-based graph | attention | attention | MSELoss |
+| [CAS-CNN](./models/CA-SATCN/) | OD matrix as image | CNN | channel-wise attention | masked MSELoss |
+| [ST-ED-RMGC](./models/) | region pairs as nodes<br>fully-connected graph<br>geo-adjacency graph<br>POI-based graph<br>disntance-based graph<br>OD flow-based graph | GCN | LSTM | MSELoss |
+| [HSTN](./models/) | regions as nodes<br>geo-adjacency graph<br>in/out flow-based graph | GCN | GRU+Seq2Seq | MSELoss |
+| [BGARN](./models/BGARN/) | grid clusters as nodes<br>distance-based graph<br>OD flow-based graph | GCN + attention | LSTM | MSELoss |
+| [HMOD](./models/HMOD/) | regions as nodes<br>OD flow-based graph | random walk for embedding | GRU | MSELoss |
+| [STHAN](./models/STHAN/) | regions as nodes<br>geo-adjacency graph<br>POI-based graph<br>OD flow-based graph | convolution by meta-paths + attention | GRU | MSELoss |
+| [ODformer](./models/ODformer/) | regions as nodes | 2D-GCN within Transformer | none | MSELoss |
+| [CMOD](./models/CMOD/) | stations as nodes<br>passengers as edges | multi-level information aggregation | multi-level information aggregation | continous time forecasting |
+| [MIAM](./models/MIAM/) | stations as nodes<br>railway-based graph | GCGRU | Transformer | online forecasting |
+| [DAGNN](./models/DAGNN/) | regions as nodes<br>fully-connected graph | subgraph + GCN | TCN | MSELoss |
 
 
 
@@ -72,11 +72,13 @@ tqdm==4.62.3
 | [BGARN](./models/BGARN/) | 52.2182|       |10.3148|0.5017|       |
 | [CMOD](./models/CMOD/) |      |       |     |      |       |
 | [AEST](./models/AEST/) |      |       |     |      |       |
-| [HMOD](./models/HMOD/) |      |       |     |      |       |
+<!-- | [HMOD](./models/HMOD/) |      |       |     |      |       |
 | [MVPF](./models/MVPF/) |      |       |     |      |       |
 | [DDW](./models/DDW/) |      |       |     |      |       |
 | [ST-VGCN](./models/STVGCN/) |      |       |     |      |       |
 | [CA-SATCN](./models/CA-SATCN/) |      |       |     |      |       |
 | [ODformer](./models/ODformer/) |      |       |     |      |       |
 | [HIAM](./models/HIAM/)|      |       |     |      |       |
-| [STHAN](./models/STHAN/) |      |       |     |      |       |
+| [STHAN](./models/STHAN/) |      |       |     |      |       | -->
+
+## The performance comparison will be completed soon.

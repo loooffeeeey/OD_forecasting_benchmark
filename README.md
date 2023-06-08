@@ -24,7 +24,11 @@ tqdm==4.62.3
 ## Data Description
 ![The Grids](geo.png#pic_center =600x600)
 ![OD Matrix](OD_matrix.png#pic_center =600x600)
+
+In every slot，$𝑋 \in 𝑅(𝑁,𝑁)$,  $𝑁$ is the number of grids. $ 𝑥_{𝑖𝑗}$ represents the volume of $i \rightarrow 𝑗$.
+
 ![OD Flow](OD_flow.png#pic_center =600x600)
+
 
 ## Systematic Comparison of Methods
 

@@ -9,32 +9,32 @@ This is the OD (origin-destination) forecasting benchmark.
 
 | model | Spatial Topology Construction | Spatial Feature Modeling | Temporal Modeling | Learning |
 | ----- | -----                         | -----                    | -----             | -----             |
-| GEML  | <font size=1>grids as nodes</font> <br><font size=1>geo-adjacency graph</font><br><font size=1>POI-based graph</font> | GCN                         |  LSTM             | multi-task learning              |
-| MPGCN | <font size=1>regions as nodes</font><br><font size=1>distance-based graph</font><br><font size=1>POI-similarity graph</font><br><font size=1>OD flow-based graph</font> | 2DGCN | LSTM | MSELoss |
-| Gallet | <font size=1>regions as nodes</font><br><font size=1>OD flow-based graph</font><br><font size=1>distance-based graph</font> | spatial attention | temporal attention | MSELoss |
-| gMHC-STA | <font size=1>region-pairs as nodes</font><br><font size=1>fully-connected graph</font> | GCN + spatial attention | self-attention | MSELoss |
-|ST-VGCN | <font size=1>region-pairs as nodes</font><br><font size=1>OD flow-based graph</font> | GCN + gated mechanism | GRU | MSELoss|
-| MVPF | <font size=1>stations as nodes</font><br><font size=1>distance-based graph</font> | GAT | GRU | MSELoss |
-| Hex D-GCN | <font size=1>hexagonal grids as nodes</font><br><font size=1>taxi path-based dynamic graph</font> | GCN | GRU | MSELoss |
-|CWGAN-GP | <font size=1>OD matrix as an image</font> | CNN | CNN | GAN-based training |
-| SEHNN | <font size=1>stations as nodes</font><br><font size=1>geo-adjacency graph</font>| GCN | LSTM | VAE-based training |
-| HC-LSTM | <font size=1>grids as nodes</font><br><font size=1>OD flow-based graph</font><br><font size=1>in/out flow as an image</font><br><font size=1>OD matrix as an image</font> | CNN + GCN | LSTM | MSELoss |
-| ST-GDL | <font size=1>regions as nodes</font><br><font size=1>distance-based graph</font> |CNN + GCN | CNN | MSELoss |
-| PGCM | <font size=1>region pairs as nodes</font><br><font size=1>OD flow-based graph</font> | GCN + gated mechanism | none | probabilistic inference<br>with Monte Carlo |
-| MF-ResNet | <font size=1>OD matrix as an image</font> | CNN | none | MSELoss |
-| TS-STN | <font size=1>stations as nodes</font><br><font size=1>OD flow-based graph</font> | temporally shifted<br>graph convolution | LSTM + attention | Partially MSELoss |
-| DMGC-GAN | <font size=1>regions as nodes</font><br><font size=1>geo-adjacency graph</font><br><font size=1>OD flow-based graph</font><br><font size=1>in/out flow-based graph</font> |GCN | GRU | GAN-based training |
-| DNEAT | <font size=1>regions as nodes</font><br><font size=1>geo-adjacency graph</font><br><font size=1>OD flow-based graph</font> | attention | attention | MSELoss |
-| CAS-CNN | <font size=1>OD matrix as image</font> | CNN | channel-wise attention | masked MSELoss |
-|ST-ED-RMGC | <font size=1>region pairs as nodes</font><br><font size=1>fully-connected graph</font><br><font size=1>geo-adjacency graph</font><br><font size=1>POI-based graph</font><br><font size=1>disntance-based graph</font><br><font size=1>OD flow-based graph</font> | GCN | LSTM | MSELoss |
-| HSTN | <font size=1>regions as nodes</font><br><font size=1>geo-adjacency graph</font><br><font size=1>in/out flow-based graph</font> | GCN | GRU+Seq2Seq | MSELoss |
-| BGARN | <font size=1>grid clusters as nodes</font><br><font size=1>distance-based graph</font><br><font size=1>OD flow-based graph</font> | GCN + attention | LSTM | MSELoss |
-| HMOD | <font size=1>regions as nodes</font><br><font size=1>OD flow-based graph</font> | random walk for embedding | GRU | MSELoss |
-| STHAN | <font size=1>regions as nodes</font><br><font size=1>geo-adjacency graph</font><br><font size=1>POI-based graph</font><br><font size=1>OD flow-based graph</font> | convolution by meta-paths + attention | GRU | MSELoss |
-| ODformer | <font size=1>regions as nodes</font> | 2D-GCN within Transformer | none | MSELoss |
-| CMOD | <font size=1>stations as nodes</font><br><font size=1>passengers as edges</font> | multi-level information aggregation | multi-level information aggregation | continous time forecasting |
-| MIAM | <font size=1>stations as nodes</font><br><font size=1>railway-based graph</font> | GCGRU | Transformer | online forecasting |
-| DAGNN | <font size=1>regions as nodes</font><br><font size=1>fully-connected graph</font> | subgraph + GCN | TCN | MSELoss |
+| GEML  | grids as nodes <br> geo-adjacency graph <br> POI-similarity graph | GCN                         |  LSTM             | multi-task learning              |
+| MPGCN | regions as nodes<br>distance-based graph<br>POI-similarity graph<br>OD flow-based graph | 2DGCN | LSTM | MSELoss |
+| Gallet | regions as nodes<br>OD flow-based graph<br>distance-based graph | spatial attention | temporal attention | MSELoss |
+| gMHC-STA | region-pairs as nodes<br>fully-connected graph | GCN + spatial attention | self-attention | MSELoss |
+|ST-VGCN | region-pairs as nodes<br>OD flow-based graph | GCN + gated mechanism | GRU | MSELoss|
+| MVPF | stations as nodes<br>distance-based graph | GAT | GRU | MSELoss |
+| Hex D-GCN | hexagonal grids as nodes<br>taxi path-based dynamic graph | GCN | GRU | MSELoss |
+|CWGAN-GP | OD matrix as an image | CNN | CNN | GAN-based training |
+| SEHNN | stations as nodes<br>geo-adjacency graph| GCN | LSTM | VAE-based training |
+| HC-LSTM | grids as nodes<br>OD flow-based graph<br>in/out flow as an image<br>OD matrix as an image | CNN + GCN | LSTM | MSELoss |
+| ST-GDL | regions as nodes<br>distance-based graph |CNN + GCN | CNN | MSELoss |
+| PGCM | region pairs as nodes<br>OD flow-based graph | GCN + gated mechanism | none | probabilistic inference<br>with Monte Carlo |
+| MF-ResNet | OD matrix as an image | CNN | none | MSELoss |
+| TS-STN | stations as nodes<br>OD flow-based graph | temporally shifted<br>graph convolution | LSTM + attention | Partially MSELoss |
+| DMGC-GAN | regions as nodes<br>geo-adjacency graph<br>OD flow-based graph<br>in/out flow-based graph |GCN | GRU | GAN-based training |
+| DNEAT | regions as nodes<br>geo-adjacency graph<br>OD flow-based graph | attention | attention | MSELoss |
+| CAS-CNN | OD matrix as image | CNN | channel-wise attention | masked MSELoss |
+|ST-ED-RMGC | region pairs as nodes<br>fully-connected graph<br>geo-adjacency graph<br>POI-based graph<br>disntance-based graph<br>OD flow-based graph | GCN | LSTM | MSELoss |
+| HSTN | regions as nodes<br>geo-adjacency graph<br>in/out flow-based graph | GCN | GRU+Seq2Seq | MSELoss |
+| BGARN | grid clusters as nodes<br>distance-based graph<br>OD flow-based graph | GCN + attention | LSTM | MSELoss |
+| HMOD | regions as nodes<br>OD flow-based graph | random walk for embedding | GRU | MSELoss |
+| STHAN | regions as nodes<br>geo-adjacency graph<br>POI-based graph<br>OD flow-based graph | convolution by meta-paths + attention | GRU | MSELoss |
+| ODformer | regions as nodes | 2D-GCN within Transformer | none | MSELoss |
+| CMOD | stations as nodes<br>passengers as edges | multi-level information aggregation | multi-level information aggregation | continous time forecasting |
+| MIAM | stations as nodes<br>railway-based graph | GCGRU | Transformer | online forecasting |
+| DAGNN | regions as nodes<br>fully-connected graph | subgraph + GCN | TCN | MSELoss |
 
 
 

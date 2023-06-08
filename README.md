@@ -8,10 +8,10 @@ This is the OD (origin-destination) forecasting benchmark.
 
 | model | Spatial Topology Construction | Spatial Feature Modeling | Temporal Modeling | Learning |
 | ----- | -----                         | -----                    | -----             | -----             |
-| GEML  | grids as nodes <br> geo-adjacency graph <br> POI-similarity graph | GCN                         |  LSTM             | multi-task learning              |
-| MPGCN | regions as nodes<br>distance-based graph<br>POI-similarity graph<br>OD flow-based graph | 2DGCN | LSTM | MSELoss |
-| Gallet | regions as nodes<br>OD flow-based graph<br>distance-based graph | spatial attention | temporal attention | MSELoss |
-| gMHC-STA | region-pairs as nodes<br>fully-connected graph | GCN + spatial attention | self-attention | MSELoss |
+| [GEML](./models/GEML/)  | grids as nodes <br> geo-adjacency graph <br> POI-similarity graph | GCN                         |  LSTM             | multi-task learning              |
+| [MPGCN](./models/MPGCN/) | regions as nodes<br>distance-based graph<br>POI-similarity graph<br>OD flow-based graph | 2DGCN | LSTM | MSELoss |
+| [Gallet](./models/Gallet/) | regions as nodes<br>OD flow-based graph<br>distance-based graph | spatial attention | temporal attention | MSELoss |
+| [gMHC-STA](./models/gMHC-STA/) | region-pairs as nodes<br>fully-connected graph | GCN + spatial attention | self-attention | MSELoss |
 |ST-VGCN | region-pairs as nodes<br>OD flow-based graph | GCN + gated mechanism | GRU | MSELoss|
 | MVPF | stations as nodes<br>distance-based graph | GAT | GRU | MSELoss |
 | Hex D-GCN | hexagonal grids as nodes<br>taxi path-based dynamic graph | GCN | GRU | MSELoss |

@@ -157,4 +157,4 @@ class STDGL(nn.Module):
     
 # 越执行网络占显存越大 //中间变量未释放
 # dataset 300（约12天） 对应5G输入数据
-# 动态图GCN  hz
+# 动态图GCN  hz  0.5G

@@ -22,14 +22,18 @@ tqdm==4.62.3
 ```
 
 ## Data Description
+
+### Grids Spliting
 <img decoding="The Grids" src="geo.png" width="50%">
 
 Firstly, divide the area to be studied into several grids on the map.
 
+### OD Matrix
 <img decoding="OD Matrix" src="OD_matrix.png" width="60%">
 
 The first data description method is to divide time into discrete time intervals, count the OD flow at each time interval, and record it as an OD matrix. In every slot, $X \in R(N,N)$ ,  $N$ is the number of grids. $x_{ij}$ represents the volume of $i \rightarrow j$.
 
+### OD Flow
 <img decoding="OD Flow" src="OD_flow.png" width="50%">
 
 The second data description method is to record the starting point, ending point, and departure time (arrival time) of each OD flow.
